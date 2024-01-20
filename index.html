@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Pager App</title>
+</head>
+<body>
+     <script src="./index.js"></script>
+    <h1 class="main-header">Welcome to the pager app</h1>
+
+     <div class="main-container">
+         <table>
+             <tr>
+                 <tbody>Pager Number:</tbody>
+                 <tbody>&nbsp; &nbsp;</tbody>
+                 <tbody><input type="text" class="num-fields" id="num_field" name="num"></tbody>
+             </tr>
+             <br><br>
+             <tr>
+                 <tbody>Message:</tbody>
+                 <tbody><tbody>&nbsp; &nbsp; <br></tbody></tbody>
+                 <tbody><textarea name="message_to_send" id="msg" cols="35" rows="10" class="text-field"></textarea></tbody>
+             </tr>
+             <tr>
+                 <td></td>
+                 <td></td>
+                 <td>
+                     <button class="submit-btn" type="button" onclick="sendData()">Send message</button>
+                 </td>
+             </tr>
+         </table>
+     </div>
+</body>
+</html>

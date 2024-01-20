@@ -1,0 +1,78 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    align-items: center;
+    /* box-sizing: border-box; */
+    background-color: #FFC5C5;
+    color: #89B9AD;
+}
+
+*, *:before, *:after {
+    box-sizing: border-box;
+  }
+.main-header{
+    margin: auto;
+    width: 50%;
+    padding: 20px;
+    text-align: center;
+}
+.main-container{
+    /* border: 1px solid black; */
+    /* display: flex;
+    justify-content: center; */
+    height: 450px;
+    width: 400px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    align-items: center;
+    padding: 50px;
+    margin: auto ;
+    border-radius: 10px;
+    background-color: #FFEBD8;
+}
+.text-field{
+    resize: none;
+    padding: 10px;
+    margin: 10px;
+    /* border: 1px solid rrgb(193, 28, 28) */
+    box-shadow: 0px 0px 0px 2px rgba(255, 255, 255, 0.01);
+    border-color: #89B9AD;
+    border-radius: 10px;
+    font:100;
+    background-color: #FFEBD8;
+    /* border-color: #FFC5C5; */
+}
+.num-fields{
+    padding: 10px;
+    margin: 10px;
+    background-color: #FFEBD8;
+    border-color: #FFC5C5;
+    /* border: 1px solid rrgb(193, 28, 28) */
+    box-shadow: 0px 0px 0px 2px rgba(97, 173, 148, 0);
+    border-color: #89B9AD;
+    border-radius: 10px;
+}
+.submit-btn{
+    position: absolute;
+    /* right: 25%; */
+    color: #FFEBD8;
+    background-color: #C7DCA7;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    margin-top: 15px;
+    margin-left: 200px;
+}
+.submit-btn:hover{
+    background-color: #89B9AD;
+}
+.confirmatory-msg{
+    background-color: #FFEBD8;
+}
+/* You can use the following CSS properties to make this input field more attractive.
+Padding (to add inner spacing)
+Margin (to add a margin around the input field)
+Border
+Box shadow
+Border radius
+Width
+Font */
