@@ -6,7 +6,7 @@ function sendData()
 
 
     let message = rMsg
-    let sender_id = 'Sefah'
+    let sender_id = 'Mass Choir'
     let api_key = 'tceoP0RO5ZkHHRp6Gw7YzSlJ9'
     let to = recipientNum
     fetch(`https://apps.mnotify.net/smsapi?key=${api_key}&to=${to}&msg=${message}&sender_id=${sender_id}`)
